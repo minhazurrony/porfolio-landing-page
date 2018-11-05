@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a00fb+0,e600ff+100 */
+  background: #4a00fb; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #4a00fb 0%,
+    #e600ff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #4a00fb 0%,
+    #e600ff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #4a00fb 0%,
+    #e600ff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a00fb', endColorstr='#e600ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  margin: 10vh auto 0 auto;
+  display: flex;
+}
+
+aside {
+  flex: 0 0 20%;
+  background-color: rgb(120, 99, 216);
+  color: #fff;
+  padding: 30px 15px;
+}
+figure {
+  margin-top: 50px;
+}
+#avater {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin: auto;
+  background-color: #fff;
+}
+
+figure figcaption {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-image: url(../img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: bottom right;
+}
+
+main h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 20px 20px 20px;
+  text-transform: capitalize;
+}
+
+main p {
+  font-size: 1em;
+  padding: 20px 70px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(120, 99, 216);
+  color: #fff;
+  text-transform: capitalize;
+  padding: 15px;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 70px;
+}
+.menu-icon {
+  display: none;
+}
